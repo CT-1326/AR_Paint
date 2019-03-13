@@ -18,16 +18,16 @@ public class Paint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+        if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
         {
-            Debug.Log("UI 터치");
+            Debug.Log("UI Touch Block");
 
             return;
-        }*/
+        }
             
         if (EventSystem.current.IsPointerOverGameObject())
         {
-            Debug.Log("UI 클릭");
+            Debug.Log("UI Click Block");
 
             return;
 
@@ -35,7 +35,7 @@ public class Paint : MonoBehaviour
 
         else if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0))
         {
-            Debug.Log("시작점 생성");
+            Debug.Log("Start Point");
 
             thisTr = (GameObject)Instantiate(GO, this.transform.position, Quaternion.identity);
 
@@ -46,7 +46,7 @@ public class Paint : MonoBehaviour
         }
         else if ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved) || Input.GetMouseButton(0))
         {
-            Debug.Log("선을 그리다");
+            Debug.Log("Move Line");
 
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             float rayD;

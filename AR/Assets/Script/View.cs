@@ -8,7 +8,7 @@ public class View : MonoBehaviour
 {
     public RawImage img;
     public GameObject sc;
-    public GameObject scp;
+    public GameObject Cimg;
     string[] fName;
 
     // Start is called before the first frame update
@@ -43,7 +43,7 @@ public class View : MonoBehaviour
         tx.LoadImage(pt);
         img.texture = tx;
 
-        GameObject so = Instantiate(scp);
+        GameObject so = Instantiate(Cimg);
         so.transform.SetParent(sc.transform, false);
     }
 }

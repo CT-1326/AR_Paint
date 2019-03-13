@@ -13,7 +13,7 @@ public class Cap : MonoBehaviour
     {
         string date = System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
         string myFilename = "myPaintshot_" + date + ".png";
-        //string myFolderLocation = "C:/Users/UNKNOWN/Desktop/";
+        //string myFolderLocation = "C:/Users/Your PC User Name/Desktop/";
         string myFolderLocation = "/storage/emulated/0/DCIM/AR_paint/";
         string myScreenshotLocation = myFolderLocation + myFilename;
 
