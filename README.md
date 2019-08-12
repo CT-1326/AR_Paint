@@ -1,20 +1,20 @@
 # AR_Paint
-Create AR paint APP with unity engine
+    Create AR paint APP with unity engine
 # Prerequisites
-Unity 2018.3.7F1
+    Unity 2018.3.7F1
 
-Android API Lv. 24 or Higher
+    Android API Lv. 24 or Higher
 
-AR Core APP
+    AR Core APP
 
 # Warning
-When you Build this APP you must turn on Storage Permissions
+    When you Build this APP you must turn on Storage Permissions
 
-Setting -> APP-> Find this APP-> Permissions -> check Storage
+    Setting -> APP-> Find this APP-> Permissions -> check Storage
 
-Sorry about this problem 
+    Sorry about this problem 
 
-I'll Fix this quickly
+    I'll Fix this quickly
 
 # Screenshots
 | Main | Painting |
@@ -29,5 +29,7 @@ I'll Fix this quickly
 # SDK
 https://github.com/google-ar/arcore-unity-sdk/releases/tag/v1.7.0
 
+    AR core SDK
+
 # License
-This project is licensed under the MIT License - see the [AR_Paint/LICENSE](LICENSE)
+    This project is licensed under the MIT License - see the [AR_Paint/LICENSE](LICENSE)
