@@ -3,7 +3,7 @@
 # Prerequisites
     Unity 2018.3.7F1
 
-    Android API Lv. 24 or Higher
+    Android API 24 or Higher
 
     AR Core APP
 
