@@ -870,7 +870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   img: {fileID: 397674880556427517, guid: 8365fab0e9cb6b64a8d3f677bd67564d, type: 3}
   sc: {fileID: 945502644}
-  scp: {fileID: 3377114611443854757, guid: 8365fab0e9cb6b64a8d3f677bd67564d, type: 3}
+  Cimg: {fileID: 3377114611443854757, guid: 8365fab0e9cb6b64a8d3f677bd67564d, type: 3}
 --- !u!114 &1475151424
 MonoBehaviour:
   m_ObjectHideFlags: 0

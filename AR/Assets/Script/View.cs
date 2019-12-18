@@ -14,7 +14,7 @@ public class View : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fName = Directory.GetFiles("/storage/emulated/0/DCIM/AR_paint/", "*.png");
+        fName = Directory.GetFiles("C:/Users/UNKNOWN/Desktop/img/", "*.png");
         for (int i = 0; i < fName.Length; i++)
         {
             go(i);
@@ -32,7 +32,7 @@ public class View : MonoBehaviour
 
     void go(int a)
     {
-        string myFolderLocation = "/storage/emulated/0/DCIM/AR_paint/";
+        string myFolderLocation = "C:/Users/UNKNOWN/Desktop/img/";
         DirectoryInfo di = new DirectoryInfo(myFolderLocation);
         FileInfo[] f = di.GetFiles();
         string myFilename = f[a].Name;
