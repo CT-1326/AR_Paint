@@ -7,15 +7,6 @@
 
     AR Core APP
 
-# Warning
-    When you Build this APP you must turn on Storage Permissions
-
-    Setting -> APP-> Find this APP-> Permissions -> check Storage
-
-    Sorry about this problem 
-
-    I'll Fix this quickly
-
 # Screenshots
 | Main | Painting |
 |:-:|:-:|
